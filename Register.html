@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=date] {
+  width: 500px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: flex;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: green;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+<div style="background-image: url('beautiful.jpeg');">
+
+<form action="Register.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1><b><center><font color="orange">Sign Up</font></center></b></h1>
+    <p><font color="orange"><b>Please fill in this form to create an account.</b></font></p>
+    <hr>
+<center>
+    <label for="name"><font color="red"><b>NAME</b></font></label>
+    <input type="text" placeholder="enter name" name="name" required>
+    <br><br>
+    <label for="email"><font color="red"><b>EMAIL   </b></font></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br><br>
+    <label for="psw"><font color="red"><b>PASSWORD</b></font></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br><br>
+    <label for="psw-repeat"><font color="red"><b>REPEAT</b></font></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br><br>
+    <label for="date of birth"><font color="red"><b>DOB</b></font></label>
+    <input type="date" placeholder="DOB" name="date of birth" required>
+    <br><br>
+    <label for="username"><font color="red"><b>USERNAME</b></font></label>
+    <input type="text" placeholder="enter username" name="username" required>
+    <br><br>
+    <label for="address"><font color="red"><b>ADDRESS</b></font></label>
+    <input type="text" placeholder="enter address" name="address" required>
+    <br><br>
+    <label for="city"><font color="red"><b>CITY</b></font></label>
+    <input type="text" placeholder="enter city" name="city" required>
+    <br><br>
+    <label for="state"><font color="red"><b>STATE</b></font></label>
+    <input type="text" placeholder="enter state" name="state" required>
+    <br><br>
+    <label for="country"><font color="red"><b>COUNTRY</b></font></label>
+    <input type="text" placeholder="enter country" name="country" required>
+    <br><br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn" value="reset">Cancel</button>
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+  </div>
+</div>
+</center>
+</form>
+
+</body>
+</html>

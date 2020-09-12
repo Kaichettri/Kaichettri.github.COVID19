@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<h1><font color="red"><center><i><marquee scrollamount=35>ALL IN ONE WEBSITE FOR COVID-19</marquee></i></center></font></h1>
+<style>
+body,html{
+  height:100%;
+  margin:0;
+}  
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Kailash Dhandapani.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+p{color:green;}
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles2.css">
+<link rel="stylesheet" href="styles3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body bgcolor="w3-aqua">
+  <div class="w3-container">
+  <div class="panel">
+     <?php  session_start(); if($_SESSION['loggedIn']): ?>
+<span style="margin-left:5%;">Welcome <?php echo $_SESSION['username']; ?></span>
+<?php endif; ?>
+ <?php if($_SESSION['logged']==false) echo 'Login/Register'; header("Location:Login form.html") ?>
+   </div>
+   </div>  
+	<div class="w3-panel">
+   <span width=45>Menu</span>
+     <div class="w3-card-4 w3-green">
+     <div class="w3-button"><a href="index.html">Home</a></div>
+     <div class="w3-button"><a href="a style.html">About COVID-19</a></div>
+     <div class="w3-button"><a href="India info.html">India info</a></div>
+     <div class="w3-button"><a href="world edited.html">World info</a></div>
+     <div class="w3-button"><a href="quiz.html">Test Yourself About COVID-19</a></div>
+     <div class="w3-button"><a href="feedback.html">Feedback</a></div>
+     <div class="w3-button"><a href="vr-2.html">Volunteer registration</a></div>
+     <div class="w3-button"><a href="bus1.html">Buisness</a></div>
+  </div>
+</div>
+     <div class="w3-panel w3-pale-red w3-leftbar w3-rightbar w3-border-red">
+      <h3><font size="23">A short intro</font></h3>
+   <p>This is a website dedicated for <b>COVID-19</b>.Here you can see many details about <u><b>COVID-19</b></u>. We also have an exciting quiz waiting for you to test yourself about <b>COVID-19</b> knowledge.And lot's more to have.</p>
+ </div>
+   <br>
+   <h2 style="font-style:italic;"><font color="green"><u><center>About the authors</center></u></font></h2>
+      <p style="font-size:16;"><font color="green"><center>This website is created and maintained by four members .</center></font></p>
+       <p><center>Hope this website reaches all people.Stay safe,stay home!!!</center></p>
+      <br>
+       <h2 style="font-style:italic;font-weight:bolder; text-align:center;"><center><u>Kailash D</u></center></h2>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">I am Kailash D</h1>
+    <p>Iam intersed in networking</p>
+    <button onclick="window.location='https://www.linkedin.com/in/kailash-dhandapani-bb49b91b3/'">Hire me</button>
+  </div>
+</div> 
+    <p>Iam pursuing B Tech Information Technology in Sri Sairam engineering .Current third year student.Iam interested in networking,cyber security and web design domain.My hobbies are singing,watching and playing football.Indeed Iam singing in starmaker application.My username is kailash_the_rocky.</p>   
+      <br>
+       <h2 style="font-style: italic;"><center><u>Hari Krishnan B</u></center></h2>
+       <div class="hero-picture">
+         <div class="text-on-hero">
+          <h1 style="font-size:50px">Iam Harikrishnan B</h1>
+          <p>Iam interested in networking</p>
+          <button onclick="window.location='https://www.linkedin.com/in/harikrishnan-b-11b9231b0/';">Hire me</button>
+        </div>
+        </div>  
+<p>I am Harikrishnan.B Student in Sri sairam engineering college,Chennai-44.LOVE TO BE KIND,MOVING WITH RIGHT ATTITUDE</p>
+<p style="text align:center;"> area of interest=NETWORKING ENGINEER</p>
+        <br>   
+       <h2 style="font-style :italic;"><center><u>Dhinesh N</u></center></h2>
+         <div class="picture">
+          <div class="text-on-picture">
+            <h1 style="font-size:50px"><center>Iam Dhinesh N</center></h1>
+              <p><center>Iam a Red Hat certified</center> </p>
+              <button><center>Hire me</center></button>
+           </div>
+           </div>   
+<p style="text-align:center;"><font color="blue"><i> I AM <b>DHINESH N</b>.I AM PURSUING BTECH INFORMATION TECHNOLOGY 3RD YEAR IN SRI SAIRAM ENGINEERING COLLEGE. I AM COMPLETED RED HAT CERTIFIED COURSE AND NETWORK CERTIFICATION COURSE IN FORTINET. MY LINKEDIN ID IS <u><b><a href=''>DHINESH N.</a></b></u>
+</i></font></p>   
+         <br>
+        <h2 style="font-style:italic;"><center><u>Shyam S</u></center></h2>
+        <div class="pic">
+          <div class="text-on-pic">
+            <h1 style="font-size:50px">Iam Shyam S</h1>
+            <p>Iam a web and mobile app developer</p>
+            <button>Hire me</button>
+          </div>
+        </div>
+<font color="blue">
+<p><i>Hi,  My name is S.SHYAM .My age is 19.I am studying B.tech information technology in SRM Easwari Engineering College.</i></p>
+<p><i>My all time favourite hobby is drawing ,painting &amp; reading books.</i></p>
+
+<p><i>I was enter into the field of programming at the year 2018.</i></p>
+<p><i>My ambition is to become a web designer or developer &amp; to become flutter mobile app developer.Meanwhile,I was very well in art &amp; craft &amp; playing chess and badminton. </i></p>
+<center><p><i>Thank you.........</i></p></center>
+           </font>
+    <div class=" w3-container w3-animate-right">
+        <h2>Stay safe.Have a healthy life</h2>
+        </div>       
+    <div class="w3-panel w3-green">
+       Please support our page!!!! 
+  </div>           
+   </body>
+   </html> 

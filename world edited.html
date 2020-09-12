@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>world info</title>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.demo
+{
+margin-top: 254px;
+}
+.counter
+{
+background: #c42252;
+text-align: center;
+position: relative;
+}
+.counter .counter-content{
+padding: 30px 20px 50px;
+color: white;
+position: relative;
+}
+.counter:before;
+.counter:after;
+.counter .counter-content:before;
+.counter .counter-content:after{
+content: "";
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background: white;
+position: absolute;
+box-shadow: inset 0 2px 2px #000;
+top: 15px;
+left: 15px;
+}
+.counter:after
+{
+left: auto;
+right: 15px;
+}
+.counter .counter-content:before,
+.counter .counter-content:after
+{
+box-shadow: inset 0 -2px 2px #000;
+top: auto;
+bottom: 15px;
+}
+.counter .counter-content:after
+{
+top: auto;
+bottom: 15px;
+right: 15px;
+
+}
+.counter .counter-icon
+{
+display:inline-block;
+font-size:25px;
+margin-bottom:15px;
+border: 2px solid white;
+padding:5px;
+border-radius: 50px;
+width: 50px;
+height: 50px;
+}
+.counter .counter-value
+{
+display: block;
+font-size: 50px;
+}
+.counter .title{
+font-size: 18px;
+font-weight: bold;
+
+
+ </style>
+</head>
+</body>
+<body>
+<div class="w3-container w3-teal">
+<div class="w3-panel w3-leftbar w3-border-blue w3-pale-blue">
+ <h1 align="center">WORLD INFO!!</h1>
+ <p align="center">WORLD-O-METER, formerly Worldometers, is a reference website that provides counters and real-time statistics for diverse topics. It is owned and operated by data company Dadax which generates revenue through online advertising.
+
+Twitter
+
+Official site
+
+Facebook
+Founded: 29 Jan 2008<br>
+The worldometer is used to know the live statistics all around the world,Live world statistics on population, government and economics, society and media, environment, food, water, energy and health. Interesting statistics with world population clock, forest loss this year, carbon dioxide co2 emission, world hunger data, energy consumed, and a lot more....<br>
+Click on the link to go to website!!!</p></div>
+<p align="center"><a href="https://worldometer.pro/"  target=_BLANK>WorldOMeter</a></p>
+
+<p align="center"> click on the link to view through MAP <a href="https://corona.help/#map" target=_BLANK>WORLDOMETER THROUGH MAP</a></p>
+<p align="center">Click link to visit::<a href="https://www.who.int/campaigns/connecting-the-world-to-combat-coronavirus/healthyathome" target=_BLANK>WHO's HOW TO STAY HEALTHY IN HOME</a></p>
+
+<div class="w3-panel w3-blue">
+  <h3>Warning!</h3>
+  <p>The world is in danger .....Be safe.....!! Without your Cooperation we will not be able to come out from this pandemic!!! It's our World It's our Nation!!</p>
+</div>
+ <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                     <div class="counter">
+                         <div class="counter-content">
+                              <i class="counter-icon fa fa-globe">  
+                              </i>
+                              <span class="counter-value">210M+</span>
+                              <h3 class="title">Infected corona cases</h3>
+                         </div>
+                     </div>
+                </div>
+                  <div class="col-md-3">
+                     <div class="counter">
+                         <div class="counter-content">
+                              <i class="counter-icon fa fa-globe">  
+                              </i>
+                              <span class="counter-value">749K+</span>
+                              <h3 class="title">Death cases</h3>
+                         </div>
+                     </div>
+                </div>
+                  <div class="col-md-3">
+                     <div class="counter">
+                         <div class="counter-content">
+                              <i class="counter-icon fa fa-globe">  
+                              </i>
+                              <span class="counter-value">12.9M+</span>
+                              <h3 class="title">Recovered cases</h3>
+                         </div>
+                     </div>
+                </div>
+</div>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+ $('.counter-value').each(function(){
+   $(this).prop('counter',0).animate({
+      Counter: $(this).text()
+    },{
+        duration: 3500,
+        easing: 'swing',
+        step: function(now){
+             $(this).text(Math.cell(now));
+      }
+  });
+
+
+ });
+});
+</script>
+<p style="text-align:right; font-size:30"><a href="index.html">Go to home</a></p>
+</body>
+</html>
+
+
